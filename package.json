@@ -18,7 +18,7 @@
   },
   "scripts": {
     "test": "webpack",
-    "posttest": "echo 'console.log(typeof MyModule)' >> build/resource/minimal.js && node build/resource/minimal.js"
+    "posttest": "echo 'console.log(typeof MyModule)' >> dist/minimal.js && node dist/minimal.js"
   },
   "main": "index.js",
   "directories": {

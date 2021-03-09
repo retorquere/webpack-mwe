@@ -25,12 +25,12 @@ const config: webpack.Configuration = {
       { test: /\.ts$/, exclude: [ /node_modules/ ], use: [ 'ts-loader' ] },
     ],
   },
-  context: path.resolve(__dirname, './translators'),
+  context: path.resolve(__dirname, './src'),
   entry: { [label]: `./${label}.ts` },
 
   output: {
     uniqueName: `Translator${label}`.replace(/ /g, ''),
-    path: path.resolve(__dirname, './build/resource'),
+    path: path.resolve(__dirname, './dist'),
     filename: '[name].js',
     pathinfo: true,
     library: `var MyModule`,
