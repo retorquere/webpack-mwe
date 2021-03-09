@@ -9,7 +9,7 @@
   "configOptions": {
     "async": true,
     "getCollections": true,
-    "hash": "e549c8417a6ee91f6b582412b697c7eb564e42c873af7469ef9317af222d6b03"
+    "hash": "c711f46f55d50a7707b6fa76b68d26e3219ac89ba4949c04cff13bbba68ca337"
   },
   "displayOptions": {
     "exportNotes": true,
@@ -21,5 +21,5 @@
   "browserSupport": "gcsv",
   "priority": 49,
   "inRepository": false,
-  "lastUpdated": "2021-03-06"
+  "lastUpdated": "2021-03-09"
 }
